@@ -18,8 +18,11 @@ This repository contains code and supplementary materials for the paper *A Unify
 
 > Considering the difficulty of interpreting generative model output, there is significant current research focused on determining meaningful evaluation metrics. Several recent approaches utilize “precision” and “recall,” borrowed from the classification domain, to individually quantify the output fidelity (realism) and output diversity (representation of the real data variation), respectively. With the increase in metric proposals, there is a need for a unifying perspective, allowing for easier comparison and clearer explanation of their benefits and drawbacks. To this end, we unify a class of kth-nearest neighbors (kNN)-based metrics under an information-theoretic lens using approaches from kNN density estimation. Additionally, we propose a tri-dimensional metric composed of Precision Cross-Entropy (PCE), Recall Cross-Entropy (RCE), and Recall Entropy (RE), which separately measure fidelity and two distinct aspects of diversity, inter- and intra-class. Our domain-agnostic metric, derived from the information-theoretic concepts of entropy and cross-entropy, can be dissected for both sample- and mode-level analysis. Our detailed experimental results demonstrate the sensitivity of our metric components to their respective qualities and reveal undesirable behaviors of other metrics.
 
-[![Watch the video](https://img.youtube.com/vi/GP4U6qbah1M/0.jpg)](https://youtu.be/GP4U6qbah1M)
-
+<p align="center">
+  <a href="https://youtu.be/GP4U6qbah1M">
+    <img src="https://img.youtube.com/vi/GP4U6qbah1M/0.jpg" alt="Watch the video" width="600">
+  </a>
+</p>
 
 ## Repository Structure
 
