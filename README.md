@@ -1,6 +1,17 @@
 # Information-Theoretic Precision & Recall Metric for Generative Models
 
-## A Unifying Information-theoretic Perspective on Evaluating Generative Models
+This repository contains code and supplementary materials for the paper *A Unifying Information-theoretic Perspective on Evaluating Generative Models*. It includes implementations for Precision Cross-Entropy (PCE), Recall Cross-Entropy (RCE), and Recall Entropy (RE) metrics, along with scripts to reproduce the experimental results.
+
+## Repository Structure
+- **metrics/**: Implementation of the metrics.
+- **experiments/**: Scripts and configurations for running experiments.
+- **notebooks/**: Jupyter notebooks demonstrating usage and visualizations.
+- **docs/**: Supplementary documentation and the paper PDF.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/unified-generative-metrics.git
 
 **Authors:**
 
