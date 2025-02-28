@@ -32,26 +32,39 @@ This repository contains code and supplementary materials for the paper *A Unify
 
 ## Installation
 
-To set up the repository and install dependencies:
+To set up the repo and test out the metrics:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/unified-generative-metrics.git
-   cd unified-generative-metrics
-   ```
 
-2. **Set up environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/unified-generative-metrics.git
+cd unified-generative-metrics
+```
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+3. **Install the package**
+```bash
+pip install -e .
+```
 
-3. **Exectute the main experiment script**
-   ```bash
-   python experiments/run_experiments.py --config experiments/config/config.yaml
-   ```
+Example Usage:
+```python
+import numpy as np
+from metrics import compute_metrics
 
+num_real_samples = num_fake_samples = 10000
+feature_dim = 1000
+nearest_k = 5
+
+real_features = np.random.normal(loc=0.0, scale=1.0, size=[num_real_samples, feature_dim])
+fake_features = np.random.normal(loc=0.0, scale=1.0, size=[num_fake_samples, feature_dim])
+
+metrics = compute_metrics(real_features, fake_features, nearest_k)
+
+print(metrics)
+```
 ## Citation
 To cite our work, use:
 
