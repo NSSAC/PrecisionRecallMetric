@@ -1,6 +1,6 @@
 # Information-Theoretic Precision & Recall Metric for Generative Models
 
-This repository contains code and supplementary materials for the paper *A Unifying Information-theoretic Perspective on Evaluating Generative Models*. It includes implementations for our proposed metric [**Precision Cross-Entropy (PCE), Recall Cross-Entropy (RCE), and Recall Entropy (RE)**], along with scripts to produce experimental results.
+This repository contains code and supplementary materials for the paper *A Unifying Information-theoretic Perspective on Evaluating Generative Models*. It includes implementations for our proposed metric **Precision Cross-Entropy (PCE), Recall Cross-Entropy (RCE), and Recall Entropy (RE)**, along with scripts to produce experimental results.
 
 ## Authors
 
