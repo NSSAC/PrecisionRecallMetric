@@ -37,7 +37,7 @@ To set up the repo and test out the metrics:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/unified-generative-metrics.git
+git clone https://github.com/unified-generative-metrics.git
 cd unified-generative-metrics
 ```
 2. **Install dependencies**
